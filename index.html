@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+    <nav id="desktop-nav">
+      <div class="logo">Deepak M</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Deepak M</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/0.jpg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Deepak M</h1>
+        <p class="section__text__p2">Interested in Devops role</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Deepak_CV.pdf')"
+          >
+            Download CV
+          </button>
+          
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/deepak-m-9370261b4//'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Deepak2330'"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/mr__deepak__m'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="sectionpic-container">
+          <img
+            src="./assets/118657357.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>EDYODA</h3>
+              <p>Aug 2024 - Sept 2024 <br />Python Internship</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>MCA in Cloud Computing<br />JAIN (Deemed-to-be University)<br />
+                CGPA: 9/10</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a driven and proficient DevOps Engineer with a strong background in cloud computing and a broad range of programming languages and technologies under my belt. After earning my bachelor's degree in computer science from Government Science College, I am now pursuing a master's degree in computer applications (MCA) at JAIN University with a concentration on cloud computing.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">SKILLS</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Version Control & Build Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                src="./assets/git.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  
+              </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Maven Apache.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Maven</h3>
+                  
+                </div>
+              </article>
+              </div>
+          </div>
+        </div>
+      </div>
+
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h2 class="experience-sub-title">Operating Systems & Environments</h2>
+                    <div class="article-container">
+              <article>
+                <img
+                  src="./assets/Linux.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  
+                </div>
+                
+              </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                
+              
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h2 class="experience-sub-title">CI/CD Tools</h2>
+                    <div class="article-container">
+              <article>
+                <img
+                  src="./assets/pngegg (1).png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jenkins</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sonarqube.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SonarQube</h3>
+                  
+                </div>
+                
+              </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h2 class="experience-sub-title">Containerization & Orchestration</h2>
+                    <div class="article-container">
+              <article>
+                <img
+                  src="./assets/docker.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/kubernetes.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kubernetes</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Helm.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Helm</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Argo CD.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ArgoCD</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Infrastructure as Code (IaC) & Configuration Management</h2>
+            <div class="article-container">
+  
+              <article>
+                <img
+                  src="./assets/icons8-ansible-48.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ansible</h3>
+                  
+                </div>
+              </article>
+            
+              <article>
+                <img
+                  src="./assets/icons8-terraform-48.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Terraform</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h2 class="experience-sub-title">Security & Monitoring
+                    </h2>
+                    <div class="article-container">
+              <article>
+                <img
+                  src="./assets/trivy.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Trivy</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/grafana.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Grafana</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/prometheus.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Prometheus</h3>
+                  
+                </div>
+              </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h2 class="experience-sub-title">Cloud Platform</h2>
+                    <div class="article-container">
+              <article>
+                <img
+                  src="./assets/aws.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                  
+                </div>
+              </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h2 class="experience-sub-title">Testing</h2>
+                    <div class="article-container">
+              <article>
+                <img
+                  src="./assets/82adfa420d2159654461656d26fd555f.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JUnit</h3>
+                  
+                </div>
+              </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mysql-database.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL </h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/html-5.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css-3.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/java-script.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Screenshot 2024-08-29 204415.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Automated Build and Deployment of Web Application using Jenkins Operating System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Deepak2330/Wedding.git'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/owncloud mp.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              OWnCloud-Docker-Compose</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Deepak2330/OwnCloud.git'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Screenshot 2024-11-30 022217.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Spring Boot Shopping Cart Web App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Deepak2330/Ekart.git'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/home-page.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              
+
+              Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Deepak2330/Netflix-Clone.git'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/gmail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:9901845901dk@gmail.com">9901845901dk@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/deepak-m-9370261b4/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone-call.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="tel://0101010101">6362893660</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Deepak M. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
